@@ -1,0 +1,327 @@
+
+
+body{
+  
+    background:white;
+  }
+  
+  #head1{
+    display:grid;
+    margin:10px;
+    border:4px solid black;
+    text-align:center;
+    font-size:20px;
+    background:silver; 
+    padding-top:30px;
+  }
+  
+  
+  #subheading, #subheading2{
+    display: flex;
+   
+  }
+  
+  
+  #subheading2 > div{
+    margin:10px;
+    height:30px;
+    flex-direction:row;
+    font-size:20px;
+    flex-basis:50%;
+  }
+  
+  #subheading > div{
+    margin:10px;
+    height:30px;
+    flex-direction:row;
+    font-size:20px;
+    flex-basis:50%;
+  }
+  
+  .sub2{
+    margin-right:50px;
+    background:lime;
+  }
+  
+  .sub2 ~ div{
+    margin:10px;
+     background:cyan;
+    text-align:right;
+  }
+  
+  
+  .sub1 , .sub2{
+    margin-right:50px;
+    background:lime;
+  }
+  
+  .sub1 ~ div, .sub2 ~div{
+     margin:10px;
+     background:cyan;
+    text-align:right;
+  }
+  
+  a[title]{
+   color:purple;
+  }
+  
+  a[title2]{
+    color:red;
+  }
+  p::first-letter{
+    font-size:40px;
+  }
+  .para{
+    font-size:20px;
+  }
+  img[title3]{
+    width:300px;
+    height:500px;
+    float:right;
+  }
+  
+  #text{
+    display:flex;
+    flex-basis:auto;
+  }
+  
+  
+  @media (max-width: 992px) {
+    
+    #subheading, #subheading2 {
+      flex-direction: column;
+    }
+     img[title3]{
+      width:600px;
+      height:400px;
+       
+    }
+    .para{
+    font-size:30px;
+  }
+  }
+  
+  
+  @media(max-width:768px){
+    #subheading, #subheading2{
+      flex-direction:row-reverse;
+    }
+     img[title3]{
+      width:300px;
+      height:500px;
+       
+    }
+    .para{
+    font-size:15px;
+  }
+  }
+  @media (max-width: 600px) {
+    
+    #subheading, #subheading2{
+      flex-direction: column;
+    }
+    img[title3]{
+      width:150px;
+      height:200px;
+    }
+    .para{
+    font-size:10px;
+  }
+  }
+
+
+
+  /*natural css*/
+
+
+#head3{
+    display:grid;
+    margin:10px;
+    border:4px solid black;
+    text-align:center;
+    font-size:30px;
+    background:silver;
+  }
+  
+  .para3{
+    font-size:20px;
+  }
+  img[title3a]{
+    width:300px;
+    height:500px;
+    float:right;
+  }
+  
+  #text3{
+    display:flex;
+    flex-basis:auto;
+  }
+  
+  
+  @media (max-width: 992px) {
+    
+   
+     img[title3a]{
+      width:600px;
+      height:400px;
+       
+    }
+    .para3{
+    font-size:30px;
+  }
+  }
+  
+  
+  @media(max-width:768px){
+      img[title3a]{
+      width:300px;
+      height:500px;
+       
+    }
+    .para3{
+    font-size:15px;
+  }
+  }
+  @media (max-width: 600px) {
+    
+  
+    img[title3a]{
+      width:150px;
+      height:200px;
+    }
+    .para3{
+    font-size:10px;
+  }
+  }
+
+  /*world css*/
+
+
+#head3{
+    display:grid;
+    margin:10px;
+    border:4px solid black;
+    text-align:center;
+    font-size:30px;
+    background:silver;
+  }
+  p::first-letter{
+    font-size:40px;
+  }
+  
+  .para2a{
+    font-size:20px;
+  }
+  img[title2aa]{
+    width:500px;
+    height:300px;
+    float:left;
+  }
+  
+  #text2a{
+    display:flex;
+    flex-basis:auto;
+  }
+  
+  
+  @media (min-width: 992px) {
+    
+   
+     img[title2a]{
+      width:800px;
+      height:600px;
+       
+    }
+    .para2a{
+    font-size:30px;
+  }
+  }
+  
+  
+  @media(min-width:768px){
+      img[title2a]{
+      width:600px;
+      height:400px;
+       
+    }
+    .para2a{
+    font-size:20px;
+  }
+  }
+  @media (min-width: 600px) {
+    
+  
+    img[title2a]{
+      width:400px;
+      height:200px;
+    }
+    .para2a{
+    font-size:20px;
+  }
+  }
+
+  /*manmade css*/
+
+
+#head4{
+    display:grid;
+    margin:10px;
+    border:4px solid black;
+    text-align:center;
+    font-size:30px;
+    background:silver;
+  }
+  
+  p::first-letter{
+    font-size:40px;
+  }
+  .para2a{
+    font-size:20px;
+  }
+  img[title2aa]{
+    width:500px;
+    height:300px;
+    float:left;
+  }
+  
+  #text2a{
+    display:flex;
+    flex-basis:auto;
+  }
+  
+  
+  @media (min-width: 992px) {
+    
+   
+     img[title2a]{
+      width:800px;
+      height:600px;
+       
+    }
+    .para2a{
+    font-size:30px;
+  }
+  }
+  
+  
+  @media(min-width:768px){
+      img[title2a]{
+      width:600px;
+      height:400px;
+       
+    }
+    .para2a{
+    font-size:20px;
+  }
+  }
+  @media (min-width: 600px) {
+    
+  
+    img[title2a]{
+      width:400px;
+      height:200px;
+    }
+    .para2a{
+    font-size:20px;
+  }
+  }
